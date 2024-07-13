@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ПРОПИСАВ ЧЕЛОВЕКА В ФОРМУ - ДОБАВЬТЕ ЕГО В НЕОБХОДИМУЮ КОЛОНКУ</h1>
+    
+    <form class="form">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" placeholder="Bruce Reyes" required>
+        <label for="age">Возраст</label>
+        <input type="number" id="age" name="age" placeholder="24" required>
+        <button type="submit">Показать</button>
+    </form>
+
+    <div class="columns">
+        <div>
+            <h3>Люди до 25</h3>
+        <div class="column_25">
+        </div>
+            
+            
+        </div>
+        <div><h3>Люди до 50</h3>
+            <div class="column_50">
+        </div>
+            
+        </div>
+        <div>
+            <h3>Остальные</h3>
+        <div class="column_others">
+        </div>
+            
+        </div>
+    </div>
+
+    <script type="module" src="/index.js"></script>
+</div>
+</body>
+</html>
